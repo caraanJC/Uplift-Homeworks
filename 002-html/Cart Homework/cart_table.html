@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Table</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Featured Items
+      </caption>
+      <tr>
+        <td>
+          <img src="./featured_1.png" alt="" /><br />Featured Item 1 <br />Php
+          100.00
+          <br />
+          <input type="number" value="1" /> <br />
+          <button>Add to Cart</button>
+        </td>
+        <td>
+          <img src="./featured_2.png" alt="" /><br />Featured Item 2 <br />Php
+          200.00
+          <br />
+          <input type="number" value="2" /> <br />
+          <button>Add to Cart</button>
+        </td>
+        <td>
+          <img src="./featured_3.png" alt="" /><br />Featured Item 3 <br />Php
+          300.00
+          <br />
+          <input type="number" value="3" /> <br />
+          <button>Add to Cart</button>
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <table>
+      <caption>
+        My Cart
+      </caption>
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Product Description</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="./cart_1.png" alt="" /></td>
+          <td>Cart Item 1 <br />Short description for cart item 1</td>
+          <td><input type="number" value="2" /></td>
+          <td>50.00</td>
+          <td>100.00 <br /><button>Remove</button></td>
+        </tr>
+        <tr>
+          <td><img src="./cart_2.png" alt="" /></td>
+          <td>Cart Item 2 <br />Short description for cart item 2</td>
+          <td><input type="number" value="2" /></td>
+          <td>50.00</td>
+          <td>100.00 <br /><button>Remove</button></td>
+        </tr>
+        <tr>
+          <th><h3>Promo Code</h3></th>
+        </tr>
+        <tr>
+          <td colspan="3">Enter your promo code here.</td>
+          <td colspan="2">
+            <strong>Total Php 200.00</strong><br /><button>Back to Shop</button
+            ><button>Checkout</button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4"><input type="text" /> <button>Redeem</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
