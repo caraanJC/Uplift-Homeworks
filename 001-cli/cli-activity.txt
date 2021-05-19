@@ -1,0 +1,67 @@
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~
+$ cd documents
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents
+$ mkdir Caraan
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents
+$ cd Caraan/
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan
+$ mkdir 001-cli
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan
+$ cd 001-cli/
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ mkdir d1 d2 d3
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ ls
+d1/  d2/  d3/
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ touch d1/s1.txt
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ touch d2/s2.txt
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ touch d3/s3.txt
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ cp d2/s2.txt d1
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ ls d1
+s1.txt  s2.txt
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ rm d2/s2.txt
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ ls d2
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ mv d1/s1.txt d2
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ ls d2
+s1.txt
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ rm d3/s3.txt
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ rmdir d3
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ ls
+d1/  d2/
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$ touch cli-activity.txt
+
+Carlo@DESKTOP-VUNM8VB MINGW64 ~/documents/Caraan/001-cli
+$
