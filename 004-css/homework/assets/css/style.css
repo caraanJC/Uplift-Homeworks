@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eee;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  background-color: #58a9e4;
+  color: white;
+  padding: 10px 30px;
+}
+
+header > img,
+header > h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header > img {
+  height: 50px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 50%;
+}
+
+.our-services,
+.our-team {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  height: calc(50% - 50px);
+}
+
+.our-services h2,
+.our-team h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: inline-block;
+  width: calc(50% - 25px);
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card-img,
+.card-info {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card-img {
+  width: 25%;
+  margin-right: 10px;
+}
+
+.card-img > img {
+  width: 100%;
+}
+
+.card-info {
+  width: 70%;
+}
+
+.card-info > h3 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #58a9e4;
+}
+
+.our-services h3 {
+  vertical-align: top;
+}
+
+.profile {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile > img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.role h3 {
+  color: #58a9e4;
+}
+
+.role > small {
+  margin-top: -5px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.num {
+  vertical-align: middle;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  text-align: center;
+  background-color: #58a9e4;
+  padding: 10px;
+}
+
+footer a {
+  color: white;
+}
