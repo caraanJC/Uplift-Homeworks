@@ -95,12 +95,13 @@ header h1 {
 
 .profile {
   border-radius: 50%;
+  width: 75px;
+  height: 75px;
   overflow: hidden;
 }
 
 .profile > img {
   width: 100%;
-  height: 100%;
   vertical-align: middle;
 }
 
