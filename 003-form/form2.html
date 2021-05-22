@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Your details:</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+      </fieldset>
+      <fieldset>
+        <legend>Your review:</legend>
+        <label for="refer">How did you hear about us?</label>
+        <select name="" id="refer">
+          <option value="gmail">Gmail</option>
+          <option value="facebook">Facebook</option>
+          <option value="friend">Friend</option>
+        </select>
+        <br />
+        <br />
+        <label for="visit">Would you visit again?</label>
+        <input type="radio" name="visit" value="Yes" />
+        <input type="radio" name="visit" value="No" />
+        <input type="radio" name="visit" value="Maybe" />
+        <br />
+        <br />
+        <label for="comments">Comments:</label>
+        <br />
+        <textarea id="comments" cols="30" rows="10"></textarea>
+        <br />
+        <br />
+        <input type="checkbox" id="sign-up" />
+        <label for="sign-up">Sign me up for email updates</label>
+        <br />
+        <input type="submit" value="Submit review" />
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+}
+
+hr {
+  border: 1px solid dimgray;
+}
+.chat-box {
+  width: 500px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.profile_pic img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border: 1px solid dimgray;
+}
+
+.chat-head {
+  text-align: center;
+}
+
+.chat-head .profile_pic {
+  width: 80px;
+  height: 80px;
+}
+
+.chat-head .profile_pic,
+.chat-head .text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.chat-head p {
+  color: dimgray;
+}
+
+.chat-body {
+  padding: 20px;
+}
+
+.chat-body .profile_pic {
+  width: 40px;
+  height: 40px;
+}
+
+.steve_msg,
+.my_msg {
+  margin-bottom: 20px;
+}
+
+.steve_msg {
+  text-align: left;
+}
+
+.my_msg {
+  text-align: right;
+}
+
+.my_msg .profile_pic,
+.my_msg .message,
+.steve_msg .profile_pic,
+.steve_msg .message,
+.message-block {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.message {
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 100px;
+  max-width: 375px;
+}
+
+.message-block {
+  width: 400px;
+}
+
+.steve_msg .message {
+  background-color: dimgray;
+}
+
+.my_msg .message {
+  background-color: deepskyblue;
+}
+
+.timestamp {
+  padding: 5px;
+  text-align: center;
+}
+
+.message + .message {
+  margin-top: 5px;
+}
+
+.input_box {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.input_box > input {
+  display: inline-block;
+  width: 100%;
+  background-color: dimgray;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.input_box > input:focus {
+  outline: none;
+}
