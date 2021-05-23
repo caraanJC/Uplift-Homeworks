@@ -71,7 +71,7 @@ header h1 {
 }
 
 .card-img {
-  width: 25%;
+  width: 75px;
   margin-right: 10px;
 }
 
@@ -95,7 +95,6 @@ header h1 {
 
 .profile {
   border-radius: 50%;
-  width: 75px;
   height: 75px;
   overflow: hidden;
 }
