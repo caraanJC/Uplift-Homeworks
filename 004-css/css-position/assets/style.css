@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.green-transparent {
+  background-color: rgba(0, 128, 0, 0.75);
+}
+
+.blue {
+  background-color: blue;
+}
+
+.first-group {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 350px;
+  height: 350px;
+}
+
+.second-group {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  width: 350px;
+  height: 350px;
+}
+
+.third-group {
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  width: 350px;
+  height: 350px;
+}
+
+.front {
+  z-index: 1;
+}
+
+.middle {
+  z-index: 0;
+}
+
+.back {
+  z-index: -1;
+}
+
+.top-left-pos {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.center-pos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.bottom-right-pos {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.top-right-pos {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottom-left-pos {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

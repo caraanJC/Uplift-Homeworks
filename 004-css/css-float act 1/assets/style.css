@@ -1,0 +1,17 @@
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.container {
+  background-color: powderblue;
+  padding: 10px 0;
+}
+
+.container div {
+  height: 150px;
+  width: 23%;
+  background-color: pink;
+  float: left;
+  margin: 1%;
+}
