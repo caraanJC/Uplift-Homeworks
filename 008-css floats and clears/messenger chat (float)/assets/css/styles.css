@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.chat-box {
+  width: 500px;
+  background-color: black;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 10vh;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+hr {
+  border: 1px solid dimgray;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1px solid dimgray;
+}
+
+.chat-head {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.chat-head img {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.chat-head .text {
+  padding: 5px;
+  margin-left: 3px;
+  float: left;
+}
+
+.chat-head .text > h1 {
+  color: white;
+}
+
+.chat-head .text h2 {
+  color: dimgray;
+}
+
+.chat-body {
+  padding: 20px 10px;
+}
+
+.steve-msg {
+  float: left;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.my-msg {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.steve-msg + .steve-msg {
+  margin-bottom: 10px;
+}
+
+.steve-msg img {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.msg-group {
+  float: left;
+  max-width: calc(100% - 45px);
+}
+
+.msg {
+  min-width: 100px;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.steve-msg .msg {
+  background-color: dimgray;
+  min-width: 100px;
+  float: left;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.my-msg .msg {
+  background-color: rgb(0, 153, 255);
+  min-width: 100px;
+  float: right;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.msg + .msg {
+  margin-top: 10px;
+}
+
+.timestamp {
+  text-align: center;
+  color: white;
+  width: 115%;
+  margin-bottom: 5px;
+}
+
+#bot {
+  margin-top: 173px;
+}
+
+input[type='text'] {
+  margin-left: 55px;
+  width: 373px;
+  float: left;
+  margin-bottom: 10px;
+  background-color: dimgray;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+.send {
+  background-color: transparent;
+  color: rgb(0, 153, 255);
+  border: none;
+  font-size: 25px;
+  margin-top: -5px;
+  float: right;
+  margin-right: 10px;
+}
