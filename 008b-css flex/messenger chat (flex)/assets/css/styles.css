@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.chat-box {
+  width: 500px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.chat-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-head img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid dimgray;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.chat-head .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chat-head h1 {
+  color: white;
+}
+
+.chat-head h2 {
+  color: dimgray;
+}
+
+hr {
+  border: 1px solid dimgray;
+}
+
+.chat-body {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.timestamp {
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.steve-msg {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.steve-msg img {
+  width: 40px;
+  height: 40px;
+  border: 1px solid dimgray;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  align-self: flex-end;
+}
+
+.steve-msg p {
+  margin-left: 5px;
+  display: flex;
+  background: dimgray;
+  min-width: 20%;
+  max-width: 85%;
+  min-height: 40px;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.steve-msg .text p:first-child {
+  margin-bottom: 10px;
+}
+
+.my-msg {
+  justify-content: flex-end;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.my-msg p {
+  background: rgb(0, 153, 255);
+  min-width: 20%;
+  max-width: 75%;
+  color: white;
+  min-height: 40px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.send-message {
+  display: flex;
+  padding: 0 10px;
+}
+
+.send-message input {
+  width: 95%;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.send-message p {
+  width: 5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 5px;
+  color: rgb(0, 153, 255);
+}
