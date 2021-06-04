@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: #58a9e4;
+  color: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+header img {
+  height: 3vh;
+}
+
+header h1 {
+  text-transform: uppercase;
+  margin-left: 2px;
+  font-size: 1rem;
+}
+
+main {
+  width: 100%;
+  padding: 5px;
+}
+
+.our-services,
+.our-team {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-services h2,
+.our-team h2 {
+  width: 100%;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #eee;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card img {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+.card .text {
+  width: 100%;
+  min-height: 200px;
+}
+
+.card .text h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.our-services .card .text h3,
+.our-team .card .text h3 {
+  color: #58a9e4;
+}
+
+.our-services .card .text h3 {
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.our-team .card .text small {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.our-team img {
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+footer {
+  width: 100%;
+  background-color: #58a9e4;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+footer a {
+  color: inherit;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  header {
+    padding: 5px 15px;
+  }
+  header img {
+    height: 5vh;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+
+  main {
+    padding: 10px;
+  }
+  .card img {
+    margin-top: 10px;
+  }
+  .card .text {
+    width: 80%;
+  }
+
+  .card .text h3 {
+    text-align: left;
+  }
+
+  .our-team .card .text small {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  header {
+    padding: 10px 15px;
+  }
+  header h1 {
+    margin-left: 10px;
+    font-size: 2rem;
+  }
+  header img {
+    height: 5vh;
+  }
+  .our-services,
+  .our-team {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .our-services h2,
+  .our-team h2 {
+    font-size: 2rem;
+  }
+
+  .card-container {
+    width: 100%;
+  }
+  .card {
+    width: 49%;
+    margin: 0.5%;
+    padding: 15px;
+  }
+  .card .text {
+    width: 75%;
+  }
+  .card .text h3 {
+    text-align: left;
+  }
+  .our-team .card .text small {
+    text-align: left;
+  }
+}
