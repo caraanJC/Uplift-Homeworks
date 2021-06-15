@@ -1,14 +1,21 @@
+const fullWord = document.getElementById('fullword');
+const submit = document.getElementById('submit');
+const result = document.getElementById('result');
+
 const toACRONYM = (word) => {
   let word_split = word.split(' ');
   let acronym = '';
 
   for (let i = 0; i < word_split.length; i++) {
-    acronym += word_split[i][0];
+    acronym += word_split[i][0].toUpperCase();
   }
   return acronym;
 };
 
-let myString = 'Philippine National Bank';
-let acro = toACRONYM(myString);
+submit.addEventListener('click', (e) => {
+  e.preventDefault();
+  const word = fullWord.value;
+  const acro = toACRONYM(word);
 
-console.log(acro);
+  result.innerHTML = `<h2>${acro}</h2>`;
+});
