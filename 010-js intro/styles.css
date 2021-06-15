@@ -6,17 +6,23 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 14px;
+}
+
 body {
   background-color: #000;
   display: grid;
   place-items: center;
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
+  padding: 10px;
 }
 
 main {
-  height: 50%;
-  width: 50ch;
+  min-height: 456px;
+  max-width: 50ch;
+  text-align: center;
   background-color: #1d1d1d;
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -31,7 +37,7 @@ main {
 }
 
 main h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
   color: white;
   background: -webkit-linear-gradient(#c1c165, #8ba447);
   background-clip: text;
@@ -48,8 +54,8 @@ main form {
 }
 
 main form input {
-  font-size: 20px;
-  padding: 10px;
+  font-size: 1.25rem;
+  padding: 15px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -57,11 +63,11 @@ main form input {
   -o-border-radius: 20px;
   border: none;
   outline-width: 0;
-  width: 76%;
+  width: 100%;
 }
 
 main form button {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: inherit;
   padding: 10px;
   border-radius: 15px;
@@ -72,12 +78,12 @@ main form button {
   border: 0;
   background-color: #3ab06d;
   color: white;
-  width: 20%;
   cursor: pointer;
+  display: none;
 }
 
 main .result {
-  height: 50%;
+  min-height: 200px;
   width: 100%;
   background-color: #2c292a;
   border-radius: 10px;
@@ -91,5 +97,11 @@ main .result {
 
 main .result h2 {
   color: white;
-  font-size: 75px;
+  font-size: 4.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }

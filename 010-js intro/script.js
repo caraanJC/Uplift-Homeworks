@@ -15,7 +15,7 @@ const toACRONYM = (word) => {
 submit.addEventListener('click', (e) => {
   e.preventDefault();
   const word = fullWord.value;
-  const acro = toACRONYM(word);
+  const acro = toACRONYM(word.trim());
 
   result.innerHTML = `<h2>${acro}</h2>`;
 });
