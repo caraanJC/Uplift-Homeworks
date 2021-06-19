@@ -6,10 +6,10 @@ let nested_list = [
 ];
 let flat_list = [];
 
-const parseList = (nested_list) => {
+const flattenList = (nested_list) => {
   for (let i = 0; i < nested_list.length; i++) {
     if (Array.isArray(nested_list[i])) {
-      parseList(nested_list[i]);
+      flattenList(nested_list[i]);
     } else {
       if (nested_list[i] == null) {
         continue;
@@ -19,6 +19,6 @@ const parseList = (nested_list) => {
   }
 };
 
-parseList(nested_list);
+flattenList(nested_list);
 flat_list.sort();
 console.log(flat_list);
