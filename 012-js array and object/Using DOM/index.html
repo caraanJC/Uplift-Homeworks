@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #movieTitle {
+        color: red;
+      }
+      #summary {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Movies</h1>
+    <h2 id="movieTitle" class="movieTitle">Iron Man</h2>
+    <p id="summary">The man who has a fetish for iron suits...</p>
+
+    <h2 class="movieTitle">Lord of the rings</h2>
+    <script>
+      // getElementById
+      const movieTitle = document.getElementById('movieTitle');
+      const summary = document.getElementById('summary');
+      // querySelector
+      const movieTitle2 = document.querySelector('#movieTitle');
+      const summary2 = document.querySelector('#summary');
+      //   querySelectorAll
+      const movieTitles = document.querySelectorAll('.movieTitle');
+
+      //   console.log(movieTitle.id);
+      //   console.log(movieTitle2.id);
+      //   console.log(movieTitle.innerText);
+      //   console.log(movieTitle2.innerText);
+      //   console.log(summary.id);
+      //   console.log(summary2.id);
+      //   console.log(summary.innerText);
+      //   console.log(summary2.innerText);
+      movieTitles.forEach((movieTitle) => {
+        console.log(movieTitle.innerText);
+      });
+    </script>
+  </body>
+</html>
