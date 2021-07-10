@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'dbxl';
+  src: url('../fonts/DBXLNEW_.TTF');
+}
+.pokemonName,
+.pokemonImage,
+.pokemonType {
+  font-size: 40px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.pokemonType {
+  text-transform: uppercase;
+}
+
+.pokemonType p {
+  font-family: 'dbxl', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0 10px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-text-stroke: 1px black;
+}
+
+.Grass {
+  background-color: #7bc151;
+  border: 2px solid #b9cfa9;
+}
+
+.Fire {
+  background-color: #c12310;
+  letter-spacing: 5px;
+  border: 2px solid #b29589;
+}
+
+.Water {
+  background-color: #277fcb;
+  border: 2px solid #ccedfd;
+}
